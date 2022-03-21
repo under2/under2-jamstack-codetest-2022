@@ -4,6 +4,7 @@ import { Container } from "../../atoms/Container"
 import { Heading } from "../../atoms/Heading"
 import { TextBlock } from "../../atoms/TextBlock"
 import { Button } from "../../atoms/Button/Button"
+import Image from 'next/image'
 
 HomeHero.propTypes = {
     className: PropTypes.string,
@@ -11,7 +12,7 @@ HomeHero.propTypes = {
 }
 
 export function HomeHero({ className = "" }) {
-    
+
     return (
         <header className={`bg-gray-100 ${className}`}>
             <Container className="md:items-center">
@@ -21,7 +22,12 @@ export function HomeHero({ className = "" }) {
                     <Button href="#">Schedule a demo</Button>
                 </div>
                 <div className="order-1 md:order-2 md:col-span-7">
-                    <img src="/images/hero-image.png" width="657" height="571" alt="" />
+                    <Image
+                        src="/images/hero-image.png"
+                        alt="Picture of the author"
+                        width={657}
+                        height={571}
+                    />
                 </div>
             </Container>
         </header>
