@@ -34,6 +34,7 @@ export function FeatureForm() {
       });
     setTimeout(() => {
         setSubmitting(false);
+        setInputs({})
       }, 3000);
   }
 
