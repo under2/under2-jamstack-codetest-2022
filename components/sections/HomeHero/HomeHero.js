@@ -12,7 +12,7 @@ HomeHero.propTypes = {
 }
 
 export function HomeHero({ className = "" }) {
-    console.log("test");
+
     return (
         <header className={`bg-gray-100 ${className}`}>
             <Container className="md:items-center">

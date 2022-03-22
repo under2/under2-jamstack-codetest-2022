@@ -46,7 +46,7 @@ export function FeatureForm() {
                     <Heading className=""> Financial Tech trends, straight to your inbox.</Heading>
                 </div>
                 <div className="mb-4"> 
-                    <p className="" >Sign up for trends, reports and papers on everythin finance, and tech in the banking world. </p>
+                    <p className="form-title" >Sign up for trends, reports and papers on everythin finance, and tech in the banking world. </p>
                 </div>
                     <div className="mb-4">
                     {submitting &&

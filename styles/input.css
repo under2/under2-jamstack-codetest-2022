@@ -73,6 +73,11 @@ body {
     border: 2px black solid;
 }
 
+.form-title {
+    color: grey;
+    font-size: 13px;
+}
+
 @media  (min-width: 500px) {
     .container {
         /* border: 2px green solid; */
